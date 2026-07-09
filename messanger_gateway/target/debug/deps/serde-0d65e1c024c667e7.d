@@ -1,0 +1,14 @@
+E:\Users\19053344\Downloads\messanger_gateway\target\debug\deps\serde-0d65e1c024c667e7.d: E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs E:\Users\19053344\Downloads\messanger_gateway\target\debug\build\serde-56220b32a1268070\out/private.rs
+
+E:\Users\19053344\Downloads\messanger_gateway\target\debug\deps\libserde-0d65e1c024c667e7.rlib: E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs E:\Users\19053344\Downloads\messanger_gateway\target\debug\build\serde-56220b32a1268070\out/private.rs
+
+E:\Users\19053344\Downloads\messanger_gateway\target\debug\deps\libserde-0d65e1c024c667e7.rmeta: E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs E:\Users\19053344\Downloads\messanger_gateway\target\debug\build\serde-56220b32a1268070\out/private.rs
+
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+E:\Users\19053344\Downloads\messanger_gateway\target\debug\build\serde-56220b32a1268070\out/private.rs:
+
+# env-dep:OUT_DIR=E:\\Users\\19053344\\Downloads\\messanger_gateway\\target\\debug\\build\\serde-56220b32a1268070\\out

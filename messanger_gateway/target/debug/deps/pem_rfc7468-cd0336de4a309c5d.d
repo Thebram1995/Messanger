@@ -1,0 +1,10 @@
+E:\Users\19053344\Downloads\messanger_gateway\target\debug\deps\pem_rfc7468-cd0336de4a309c5d.d: E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\lib.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\decoder.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\encoder.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\error.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\grammar.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\../README.md
+
+E:\Users\19053344\Downloads\messanger_gateway\target\debug\deps\libpem_rfc7468-cd0336de4a309c5d.rmeta: E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\lib.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\decoder.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\encoder.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\error.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\grammar.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\../README.md
+
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\lib.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\decoder.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\encoder.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\error.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\grammar.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pem-rfc7468-0.7.0\src\../README.md:

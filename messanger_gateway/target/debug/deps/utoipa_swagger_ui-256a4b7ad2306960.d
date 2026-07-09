@@ -1,0 +1,12 @@
+C:\Users\abrah\OneDrive\Documentos\messanger-proyect\messanger_gateway\target\debug\deps\utoipa_swagger_ui-256a4b7ad2306960.d: C:\Users\abrah\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utoipa-swagger-ui-9.0.2\src\lib.rs C:\Users\abrah\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utoipa-swagger-ui-9.0.2\src\actix.rs C:\Users\abrah\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utoipa-swagger-ui-9.0.2\src\axum.rs C:\Users\abrah\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utoipa-swagger-ui-9.0.2\src\oauth.rs C:\Users\abrah\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utoipa-swagger-ui-9.0.2\src\rocket.rs C:\Users\abrah\OneDrive\Documentos\messanger-proyect\messanger_gateway\target\debug\build\utoipa-swagger-ui-f428894d143a8e55\out/embed.rs
+
+C:\Users\abrah\OneDrive\Documentos\messanger-proyect\messanger_gateway\target\debug\deps\libutoipa_swagger_ui-256a4b7ad2306960.rmeta: C:\Users\abrah\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utoipa-swagger-ui-9.0.2\src\lib.rs C:\Users\abrah\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utoipa-swagger-ui-9.0.2\src\actix.rs C:\Users\abrah\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utoipa-swagger-ui-9.0.2\src\axum.rs C:\Users\abrah\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utoipa-swagger-ui-9.0.2\src\oauth.rs C:\Users\abrah\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utoipa-swagger-ui-9.0.2\src\rocket.rs C:\Users\abrah\OneDrive\Documentos\messanger-proyect\messanger_gateway\target\debug\build\utoipa-swagger-ui-f428894d143a8e55\out/embed.rs
+
+C:\Users\abrah\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utoipa-swagger-ui-9.0.2\src\lib.rs:
+C:\Users\abrah\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utoipa-swagger-ui-9.0.2\src\actix.rs:
+C:\Users\abrah\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utoipa-swagger-ui-9.0.2\src\axum.rs:
+C:\Users\abrah\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utoipa-swagger-ui-9.0.2\src\oauth.rs:
+C:\Users\abrah\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utoipa-swagger-ui-9.0.2\src\rocket.rs:
+C:\Users\abrah\OneDrive\Documentos\messanger-proyect\messanger_gateway\target\debug\build\utoipa-swagger-ui-f428894d143a8e55\out/embed.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\abrah\\OneDrive\\Documentos\\messanger-proyect\\messanger_gateway\\target\\debug\\build\\utoipa-swagger-ui-f428894d143a8e55\\out

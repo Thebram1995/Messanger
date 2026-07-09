@@ -1,0 +1,5 @@
+OUT_DIR: E:\Users\19053344\Downloads\messanger_gateway\target\debug\build\utoipa-swagger-ui-162f336b36828a5a\out
+SWAGGER_UI_DOWNLOAD_URL: https://github.com/swagger-api/swagger-ui/archive/refs/tags/v5.17.14.zip
+using vendored Swagger UI
+zip_top_level_folder: "swagger-ui-5.17.14"
+SWAGGER_UI_OVERWRITE_FOLDER not found: "overwrite"

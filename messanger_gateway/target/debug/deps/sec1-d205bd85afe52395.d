@@ -1,0 +1,11 @@
+E:\Users\19053344\Downloads\messanger_gateway\target\debug\deps\sec1-d205bd85afe52395.d: E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\lib.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\point.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\error.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\parameters.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\private_key.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\traits.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\../README.md
+
+E:\Users\19053344\Downloads\messanger_gateway\target\debug\deps\libsec1-d205bd85afe52395.rmeta: E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\lib.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\point.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\error.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\parameters.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\private_key.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\traits.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\../README.md
+
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\lib.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\point.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\error.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\parameters.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\private_key.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\traits.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sec1-0.7.3\src\../README.md:

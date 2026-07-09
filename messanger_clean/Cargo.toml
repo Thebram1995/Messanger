@@ -1,0 +1,59 @@
+[package]
+name = "messanger"
+version = "0.1.0"
+edition = "2024"
+authors = ["JESUS ABRAHAM GUZMAN VERA"]
+
+[dependencies]
+# =========================
+# Web Framework (Axum)
+# =========================
+axum = { version = "0.8.7", features = ["ws"] }
+tokio = { version = "1.49.0", features = ["full"] }
+dotenvy = "0.15"
+
+# =========================
+# Serialization
+# =========================
+serde = { version = "1.0.227", features = ["derive"] }
+serde_json = "1.0.148"
+
+# =========================
+# Logs
+# =========================
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3.22", features = ["json", "env-filter"] }
+
+# =========================
+# Date / Time
+# =========================
+chrono = { version = "0.4.43", features = ["serde"] }
+
+# =========================
+# Async traits
+# =========================
+async-trait = "0.1"
+
+# =========================
+# IDs
+# =========================
+uuid = { version = "1.21.0", features = ["v4", "serde"] }
+
+# =========================
+# MongoDB
+# =========================
+mongodb = "2.8.2"
+bson = { version = "2.15.0", features = ["chrono-0_4"] }
+futures = "0.3"
+
+# =========================
+# Seguridad
+# =========================
+bcrypt = "0.19.0"
+jsonwebtoken = { version = "10.3.0", features = ["rust_crypto"] }
+
+# =========================
+# Documentantion (Swagger)
+# =========================
+utoipa = { version = "5", features = ["axum_extras"] }
+utoipa-swagger-ui = { version = "9", default-features = false, features = ["axum", "vendored"] }

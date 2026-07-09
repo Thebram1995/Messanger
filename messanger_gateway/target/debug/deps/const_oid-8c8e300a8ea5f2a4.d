@@ -1,0 +1,11 @@
+E:\Users\19053344\Downloads\messanger_gateway\target\debug\deps\const_oid-8c8e300a8ea5f2a4.d: E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\lib.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\checked.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\arcs.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\encoder.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\error.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\parser.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\../README.md
+
+E:\Users\19053344\Downloads\messanger_gateway\target\debug\deps\libconst_oid-8c8e300a8ea5f2a4.rmeta: E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\lib.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\checked.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\arcs.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\encoder.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\error.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\parser.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\../README.md
+
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\lib.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\checked.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\arcs.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\encoder.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\error.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\parser.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\const-oid-0.9.6\src\../README.md:

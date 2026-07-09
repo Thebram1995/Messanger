@@ -1,0 +1,12 @@
+E:\Users\19053344\Downloads\messanger_gateway\target\debug\deps\thiserror-457226d59f8e1c7f.d: E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\lib.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\aserror.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\display.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\var.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\private.rs E:\Users\19053344\Downloads\messanger_gateway\target\debug\build\thiserror-8e2c4ff67c1df973\out/private.rs
+
+E:\Users\19053344\Downloads\messanger_gateway\target\debug\deps\libthiserror-457226d59f8e1c7f.rmeta: E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\lib.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\aserror.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\display.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\var.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\private.rs E:\Users\19053344\Downloads\messanger_gateway\target\debug\build\thiserror-8e2c4ff67c1df973\out/private.rs
+
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\lib.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\aserror.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\display.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\var.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\thiserror-2.0.18\src\private.rs:
+E:\Users\19053344\Downloads\messanger_gateway\target\debug\build\thiserror-8e2c4ff67c1df973\out/private.rs:
+
+# env-dep:OUT_DIR=E:\\Users\\19053344\\Downloads\\messanger_gateway\\target\\debug\\build\\thiserror-8e2c4ff67c1df973\\out

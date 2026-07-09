@@ -1,0 +1,9 @@
+E:\Users\19053344\Downloads\messanger_gateway\target\debug\deps\zeroize-3ea158ac8001840b.d: E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zeroize-1.9.0\src\lib.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zeroize-1.9.0\src\x86.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zeroize-1.9.0\src\barrier.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zeroize-1.9.0\src\stack.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zeroize-1.9.0\src\../README.md
+
+E:\Users\19053344\Downloads\messanger_gateway\target\debug\deps\libzeroize-3ea158ac8001840b.rmeta: E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zeroize-1.9.0\src\lib.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zeroize-1.9.0\src\x86.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zeroize-1.9.0\src\barrier.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zeroize-1.9.0\src\stack.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zeroize-1.9.0\src\../README.md
+
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zeroize-1.9.0\src\lib.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zeroize-1.9.0\src\x86.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zeroize-1.9.0\src\barrier.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zeroize-1.9.0\src\stack.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\zeroize-1.9.0\src\../README.md:

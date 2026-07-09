@@ -1,0 +1,11 @@
+E:\Users\19053344\Downloads\messanger_gateway\target\debug\deps\writeable-4869293a25d53d29.d: E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\lib.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\cmp.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\concat.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\impls.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\ops.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\parts_write_adapter.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\try_writeable.rs
+
+E:\Users\19053344\Downloads\messanger_gateway\target\debug\deps\libwriteable-4869293a25d53d29.rmeta: E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\lib.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\cmp.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\concat.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\impls.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\ops.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\parts_write_adapter.rs E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\try_writeable.rs
+
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\lib.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\cmp.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\concat.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\impls.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\ops.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\parts_write_adapter.rs:
+E:\Users\19053344\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\writeable-0.6.3\src\try_writeable.rs:
