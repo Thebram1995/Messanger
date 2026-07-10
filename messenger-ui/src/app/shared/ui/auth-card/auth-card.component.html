@@ -1,0 +1,21 @@
+<section class="auth-shell">
+  <div class="auth-card">
+    <header class="auth-card__header">
+      <span class="auth-card__eyebrow">CLANWAR</span>
+
+      <h1 class="auth-card__title">
+        {{ title }}
+      </h1>
+
+      @if (subtitle) {
+        <p class="auth-card__subtitle">
+          {{ subtitle }}
+        </p>
+      }
+    </header>
+
+    <div class="auth-card__content">
+      <ng-content></ng-content>
+    </div>
+  </div>
+</section>
