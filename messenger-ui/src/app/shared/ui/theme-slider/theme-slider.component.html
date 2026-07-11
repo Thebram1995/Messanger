@@ -1,0 +1,16 @@
+<div class="theme-slider">
+  <label for="themeHue" class="theme-slider__label">
+    Tema
+  </label>
+
+  <input
+    id="themeHue"
+    class="theme-slider__range"
+    type="range"
+    min="0"
+    max="360"
+    step="1"
+    [value]="hue"
+    (input)="onHueChange($event)"
+  />
+</div>

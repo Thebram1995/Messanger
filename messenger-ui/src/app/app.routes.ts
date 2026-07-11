@@ -3,28 +3,24 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'login',
-    pathMatch: 'full'
+    loadComponent: () =>
+      import('./features/access/access-page/access-page.component')
+        .then(component => component.AccessPageComponent)
   },
   {
     path: 'login',
     loadComponent: () =>
       import('./features/auth/pages/login/login.component')
-        .then(m => m.LoginComponent)
+        .then(component => component.LoginComponent)
   },
   {
     path: 'register',
     loadComponent: () =>
       import('./features/auth/pages/register/register.component')
-        .then(m => m.RegisterComponent)
-  },
-  {
-    path: 'home',
-    loadComponent: () =>
-      import('./features/dashboard/dashboard.component').then(m => m.DashboardComponent)
+        .then(component => component.RegisterComponent)
   },
   {
     path: '**',
-    redirectTo: 'login'
+    redirectTo: ''
   }
 ];

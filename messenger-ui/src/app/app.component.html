@@ -1,1 +1,10 @@
-<router-outlet></router-outlet>
+<app-logo-loader
+  *ngIf="loading"
+  [class.loader-exit]="hidingLoader"
+  [progress]="progress"
+  message="Cargando Clan Wars..."
+  [showPercentage]="true"
+  [fullscreen]="true">
+</app-logo-loader>
+
+<router-outlet *ngIf="!loading"></router-outlet>

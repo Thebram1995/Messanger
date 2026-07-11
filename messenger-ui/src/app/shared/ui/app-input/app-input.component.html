@@ -1,0 +1,21 @@
+<label class="field">
+  <span class="field__label">
+    {{ label }}
+  </span>
+
+  <input
+    class="field__input"
+    [type]="type"
+    [placeholder]="placeholder"
+    [value]="value"
+    [disabled]="disabled"
+    [class.field__input--error]="error"
+    (input)="onInput($event)"
+  />
+
+  @if (error) {
+    <span class="field__error">
+      {{ error }}
+    </span>
+  }
+</label>
