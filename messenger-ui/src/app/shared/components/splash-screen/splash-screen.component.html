@@ -1,1 +1,45 @@
-<p>splash-screen works!</p>
+<section
+  class="splash"
+  [class.splash--rising]="phase === 'rising'"
+  [class.splash--falling]="phase === 'falling'"
+  [class.splash--impact]="phase === 'impact'"
+  [class.splash--settled]="phase === 'settled'">
+
+  <div class="splash__stage">
+
+    <div
+      class="splash__logo"
+      [style.--progress.%]="progress"
+      role="img"
+      aria-label="Logo de Clan Wars Messenger">
+
+      <div class="splash__logo-outline"></div>
+      <div class="splash__logo-fill"></div>
+
+    </div>
+
+    <div class="impact" aria-hidden="true">
+
+      <div class="impact__flash"></div>
+      <div class="impact__ground"></div>
+
+      <span class="impact__crack impact__crack--1"></span>
+      <span class="impact__crack impact__crack--2"></span>
+      <span class="impact__crack impact__crack--3"></span>
+      <span class="impact__crack impact__crack--4"></span>
+      <span class="impact__crack impact__crack--5"></span>
+
+      <span class="impact__particle impact__particle--1"></span>
+      <span class="impact__particle impact__particle--2"></span>
+      <span class="impact__particle impact__particle--3"></span>
+      <span class="impact__particle impact__particle--4"></span>
+      <span class="impact__particle impact__particle--5"></span>
+      <span class="impact__particle impact__particle--6"></span>
+      <span class="impact__particle impact__particle--7"></span>
+      <span class="impact__particle impact__particle--8"></span>
+
+    </div>
+
+  </div>
+
+</section>

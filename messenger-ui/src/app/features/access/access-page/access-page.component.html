@@ -1,1 +1,52 @@
-<p>access-page works!</p>
+<main
+  class="access-page"
+  [class.access-page--visible]="interfaceVisible"
+  [class.access-page--leaving]="leavingPage">
+
+  <app-splash-screen
+    (settled)="onSplashSettled()">
+  </app-splash-screen>
+
+  <section class="access-content">
+
+    <header class="access-heading">
+      <h1 class="access-heading__title">
+        CLAN WARS
+      </h1>
+
+      <div class="access-heading__subtitle-row">
+        <span class="access-heading__line"></span>
+
+        <p class="access-heading__subtitle">
+          Messenger
+        </p>
+
+        <span class="access-heading__line"></span>
+      </div>
+    </header>
+
+    <nav
+      class="access-actions"
+      aria-label="Opciones de acceso">
+
+      <button
+        class="access-button access-button--primary"
+        type="button"
+        [disabled]="leavingPage"
+        (click)="navigateTo('/login')">
+        Iniciar sesión
+      </button>
+
+      <button
+        class="access-button access-button--secondary"
+        type="button"
+        [disabled]="leavingPage"
+        (click)="navigateTo('/register')">
+        Registrarse
+      </button>
+
+    </nav>
+
+  </section>
+
+</main>

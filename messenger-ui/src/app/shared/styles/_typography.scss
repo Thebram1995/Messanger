@@ -1,0 +1,19 @@
+$font-family-base:
+  Inter,
+  "Segoe UI",
+  Roboto,
+  Helvetica,
+  Arial,
+  sans-serif;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+
+$text-small: 0.875rem;
+$text-normal: 1rem;
+$text-medium: 1.125rem;
+$text-large: 1.25rem;
+$text-title: clamp(2rem, 7vw, 3.15rem);

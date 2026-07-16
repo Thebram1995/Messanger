@@ -1,13 +1,13 @@
-import { Component, Input } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component
+} from '@angular/core';
 
 @Component({
   selector: 'app-auth-card',
   standalone: true,
-  imports: [],
   templateUrl: './auth-card.component.html',
-  styleUrl: './auth-card.component.scss'
+  styleUrl: './auth-card.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class AuthCardComponent {
-  @Input({ required: true }) title = '';
-  @Input() subtitle = '';
-}
+export class AuthCardComponent {}

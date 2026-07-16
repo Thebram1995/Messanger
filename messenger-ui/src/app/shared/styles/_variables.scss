@@ -1,0 +1,42 @@
+:root {
+
+  /* Color base del tema */
+  --theme-hue: 230;
+
+  /* Color de error */
+  --color-error: #f87171;
+
+  /* Primarios */
+  --color-primary: hsl(var(--theme-hue), 82%, 62%);
+  --color-primary-hover: hsl(var(--theme-hue), 82%, 56%);
+
+  /* Secundario (un poco más claro) */
+  --color-secondary: hsl(calc(var(--theme-hue) + 20), 88%, 60%);
+
+  /* Fondos */
+  --color-background: hsl(var(--theme-hue), 18%, 9%);
+  --color-surface: hsl(var(--theme-hue), 16%, 14%);
+  --color-surface-light: hsl(var(--theme-hue), 14%, 19%);
+
+  /* Texto */
+  --color-text: #f5f7ff;
+  --color-text-muted: #aeb5c8;
+
+  /* Bordes */
+  --color-border:
+    hsla(var(--theme-hue), 60%, 70%, .20);
+
+  /* Sombras */
+  --shadow-card:
+    0 24px 70px rgba(0,0,0,.45);
+
+  --shadow-primary:
+    0 10px 35px hsla(var(--theme-hue), 90%, 55%, .35);
+
+  /* Radios */
+  --radius-sm: .75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.2rem;
+  --radius-xl: 1.6rem;
+
+}

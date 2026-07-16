@@ -1,6 +1,111 @@
-<app-auth-card
-  title="Iniciar sesión"
-  subtitle="Entra a tu clan, revisa estadísticas y mantente conectado con tu equipo."
->
-  <p>Formulario próximamente</p>
-</app-auth-card>
+<main
+  class="login-page"
+  [class.login-page--leaving]="leavingPage">
+
+  <button
+    class="login-page__back"
+    type="button"
+    [disabled]="leavingPage"
+    (click)="returnToAccess()">
+    ← Volver
+  </button>
+
+  <section class="login-page__content">
+
+    <div class="login-page__brand">
+      <img
+        class="login-page__logo"
+        src="/assets/logo/messenger-logo-mask.png"
+        alt="Logo de Clan Wars">
+
+      <h1 class="login-page__title">
+        CLAN WARS
+      </h1>
+
+      <p class="login-page__subtitle">
+        Messenger
+      </p>
+    </div>
+
+    <app-auth-card>
+
+      <form
+        class="login-form"
+        [formGroup]="loginForm"
+        (ngSubmit)="submitLoginForm()">
+
+        <div class="login-form__field">
+          <app-input
+            label="Correo electrónico"
+            type="email"
+            autocomplete="email"
+            placeholder="correo@ejemplo.com"
+            formControlName="email"
+            [hasError]="
+              emailControl.invalid &&
+              (emailControl.touched || emailControl.dirty)
+            ">
+          </app-input>
+
+          @if (
+            emailControl.invalid &&
+            (emailControl.touched || emailControl.dirty)
+          ) {
+            <p class="login-form__error">
+              {{ emailErrorMessage }}
+            </p>
+          }
+        </div>
+
+        <div class="login-form__field">
+          <app-password
+            label="Contraseña"
+            autocomplete="current-password"
+            placeholder="Escribe tu contraseña"
+            formControlName="password"
+            [hasError]="
+              passwordControl.invalid &&
+              (passwordControl.touched || passwordControl.dirty)
+            ">
+          </app-password>
+
+          @if (
+            passwordControl.invalid &&
+            (passwordControl.touched || passwordControl.dirty)
+          ) {
+            <p class="login-form__error">
+              {{ passwordErrorMessage }}
+            </p>
+          }
+        </div>
+
+        <button
+          class="login-form__forgot"
+          type="button">
+          ¿Olvidaste tu contraseña?
+        </button>
+
+        <app-button
+          type="submit"
+          variant="primary"
+          [fullWidth]="true"
+          [loading]="loading"
+          [disabled]="loading">
+          Iniciar sesión
+        </app-button>
+
+        <p class="login-form__register">
+          ¿No tienes cuenta?
+
+          <a routerLink="/register">
+            Regístrate
+          </a>
+        </p>
+
+      </form>
+
+    </app-auth-card>
+
+  </section>
+
+</main>

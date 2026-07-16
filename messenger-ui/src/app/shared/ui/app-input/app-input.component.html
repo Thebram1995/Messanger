@@ -1,21 +1,23 @@
-<label class="field">
-  <span class="field__label">
-    {{ label }}
-  </span>
+<label class="app-input">
 
-  <input
-    class="field__input"
-    [type]="type"
-    [placeholder]="placeholder"
-    [value]="value"
-    [disabled]="disabled"
-    [class.field__input--error]="error"
-    (input)="onInput($event)"
-  />
+  @if (label) {
 
-  @if (error) {
-    <span class="field__error">
-      {{ error }}
+    <span class="app-input__label">
+      {{ label }}
     </span>
   }
+
+  <input
+    class="app-input__field"
+    [class.app-input__field--error]="hasError"
+    [attr.aria-invalid]="hasError"
+    [type]="type"
+    [placeholder]="placeholder"
+    [autocomplete]="autocomplete"
+    [value]="value"
+    [disabled]="disabled"
+    (input)="handleInput($event)"
+    (blur)="handleBlur()"
+  />
+
 </label>

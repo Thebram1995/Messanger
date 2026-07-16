@@ -1,0 +1,32 @@
+<button
+  class="app-button"
+  [class.app-button--primary]="variant === 'primary'"
+  [class.app-button--secondary]="variant === 'secondary'"
+  [class.app-button--ghost]="variant === 'ghost'"
+  [class.app-button--danger]="variant === 'danger'"
+  [class.app-button--full-width]="fullWidth"
+  [class.app-button--loading]="loading"
+  [attr.aria-label]="ariaLabel"
+  [attr.aria-busy]="loading"
+  [type]="type"
+  [disabled]="disabled || loading"
+  (click)="handleClick($event)">
+
+  <!--
+    El spinner reemplaza temporalmente el contenido del botón
+    para indicar que existe una operación en progreso.
+  -->
+    
+  <span
+    *ngIf="loading"
+    class="app-button__loader"
+    aria-hidden="true">
+  </span>
+
+  <span
+    class="app-button__content"
+    [class.app-button__content--hidden]="loading">
+    <ng-content></ng-content>
+  </span>
+
+</button>

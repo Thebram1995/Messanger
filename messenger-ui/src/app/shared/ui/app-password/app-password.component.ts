@@ -10,40 +10,34 @@ import {
   NG_VALUE_ACCESSOR
 } from '@angular/forms';
 
+
 @Component({
-  selector: 'app-input',
+  selector: 'app-password',
   standalone: true,
-  templateUrl: './app-input.component.html',
-  styleUrl: './app-input.component.scss',
+  templateUrl: './app-password.component.html',
+  styleUrl: './app-password.component.scss',
   providers: [
     {
       provide: NG_VALUE_ACCESSOR,
-      useExisting: forwardRef(() => AppInputComponent),
+      useExisting: forwardRef(() => AppPasswordComponent),
       multi: true
     }
   ],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-// Permite que este componente funcione con formControlName
-// como si fuera un input nativo de Angular.
-export class AppInputComponent
+// Permite integrar el componente con Reactive Forms,
+// haciendo que funcione con formControlName igual que un input nativo.
+export class AppPasswordComponent
   implements ControlValueAccessor {
 
   @Input() label = '';
-  
   @Input() placeholder = '';
-
-  @Input() type:
-    | 'text'
-    | 'email'
-    | 'number' = 'text';
-
   @Input() autocomplete = '';
+  @Input() hasError = false;
 
   value = '';
   disabled = false;
-
-  @Input() hasError = false;
+  showPassword = false;
 
   private onChange:
     (value: string) => void = () => {};
@@ -76,13 +70,20 @@ export class AppInputComponent
   handleInput(
     event: Event
   ): void {
+
     const input =
       event.target as HTMLInputElement;
+
     this.value = input.value;
     this.onChange(this.value);
   }
 
   handleBlur(): void {
     this.onTouched();
+  }
+
+  togglePasswordVisibility(): void {
+    this.showPassword =
+      !this.showPassword;
   }
 }
