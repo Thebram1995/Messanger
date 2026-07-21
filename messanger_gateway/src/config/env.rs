@@ -32,7 +32,7 @@ impl AppConfig {
                 .expect("MESSENGER MS URL es requerido"),
 
             jwt_secret: env::var("JWT_SECRET")
-                .expect("JWT_SECRET es requerido"),
+                .expect("JWT_SECRET es requerido en .env"),
         }
     }
 

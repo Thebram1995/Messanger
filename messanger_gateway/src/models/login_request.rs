@@ -3,8 +3,8 @@ use utoipa::ToSchema;
 
 #[derive(Debug, Clone, Serialize, Deserialize, ToSchema)]
 pub struct LoginRequest {
-    #[schema(example = "Abraham")]
-    pub username: String,
+    #[schema(example = "email@email.com")]
+    pub email: String,
 
     #[schema(example = "123456")]
     pub password: String,

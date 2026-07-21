@@ -11,6 +11,7 @@ use utoipa::{
 use crate::models::{
     create_role_request::CreateRoleRequest,
     login_request::LoginRequest,
+    login_response::LoginResponse,
 };
 
 pub struct SecurityAddon;
@@ -39,12 +40,13 @@ impl Modify for SecurityAddon {
     modifiers(&SecurityAddon),
 
     paths(
-
+        crate::routes::auth_routes::login,
     ),
 
     components(
         schemas(
             LoginRequest,
+            LoginResponse,
             CreateRoleRequest,
         )
     ),

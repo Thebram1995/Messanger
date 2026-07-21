@@ -40,19 +40,23 @@ impl ProxyEngine {
 
         match request.send().await {
             Ok(resp) => {
-                let status = resp.status();
+                let status = StatusCode::from_u16(resp.status().as_u16())
+                    .unwrap_or(StatusCode::INTERNAL_SERVER_ERROR);
 
-                match resp.json::<Value>().await {
-                    Ok(json) => (
-                        StatusCode::from_u16(status.as_u16())
-                            .unwrap_or(StatusCode::INTERNAL_SERVER_ERROR),
-                        Json(json),
-                    )
-                        .into_response(),
+                match resp.text().await {
+                    Ok(body) => {
+                        match serde_json::from_str::<Value>(&body) {
+                            Ok(json) => (status, Json(json)).into_response(),
 
-                    Err(_) => (
+                            Err(_) => (status, body).into_response(),
+                        }
+                    }
+
+                    Err(error) => (
                         StatusCode::INTERNAL_SERVER_ERROR,
-                        "Error leyendo respuesta del microservicio",
+                        format!(
+                            "Error leyendo respuesta del microservicio: {error}"
+                        ),
                     )
                         .into_response(),
                 }

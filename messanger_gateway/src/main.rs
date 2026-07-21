@@ -5,6 +5,7 @@ mod middleware;
 mod models;
 mod proxy;
 mod routes;
+mod security;
 
 use std::net::SocketAddr;
 
@@ -13,7 +14,9 @@ use axum::{
     Router,
 };
 
-use crate::middleware::request_id::request_id_middleware;
+use crate::{config::app_state::Services, middleware::request_id::request_id_middleware};
+
+use crate::security::jwt_service::JwtService;
 
 use reqwest::Client;
 use utoipa::OpenApi;
@@ -45,9 +48,14 @@ async fn main() {
 
     let port = config.port;
 
+    let services = Services {
+        jwt: JwtService::new(config.jwt_secret.clone()),
+    };
+
     let app_state = AppState {
         client: Client::new(),
         config,
+        services,
     };
 
     let app = Router::new()
