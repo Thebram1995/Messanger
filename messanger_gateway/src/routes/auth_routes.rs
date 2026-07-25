@@ -1,25 +1,18 @@
 use axum::{
+    Json, Router,
     extract::State,
     http::StatusCode,
     response::{IntoResponse, Response},
     routing::post,
-    Json,
-    Router,
 };
 
 use crate::{
     config::app_state::AppState,
     models::{
         login_request::LoginRequest,
-        login_response::{
-            LoginResponse,
-            MicroLoginResponse,
-        },
+        login_response::{LoginResponse, MicroLoginResponse},
     },
-    proxy::service_registry::{
-        Microservice,
-        ServiceRegistry,
-    },
+    proxy::service_registry::{Microservice, ServiceRegistry},
     proxy_route,
 };
 
@@ -40,64 +33,40 @@ use crate::{
         )
     )
 )]
-pub async fn login(
-    State(state): State<AppState>,
-    Json(payload): Json<LoginRequest>,
-) -> Response {
-    let url = ServiceRegistry::resolve(
-        &state,
-        Microservice::Messenger,
-        "/auth/login",
-    );
+pub async fn login(State(state): State<AppState>, Json(payload): Json<LoginRequest>) -> Response {
+    let url = ServiceRegistry::resolve(&state, Microservice::Messenger, "/auth/login");
 
-    let response = match state
-        .client
-        .post(url)
-        .json(&payload)
-        .send()
-        .await
-    {
+    let response = match state.client.post(url).json(&payload).send().await {
         Ok(response) => response,
 
         Err(error) => {
             return (
                 StatusCode::BAD_GATEWAY,
-                format!(
-                    "Error conectando con el microservicio: {error}"
-                ),
+                format!("Error conectando con el microservicio: {error}"),
             )
                 .into_response();
         }
     };
 
-    let status = StatusCode::from_u16(
-        response.status().as_u16(),
-    )
-    .unwrap_or(StatusCode::INTERNAL_SERVER_ERROR);
+    let status = StatusCode::from_u16(response.status().as_u16())
+        .unwrap_or(StatusCode::INTERNAL_SERVER_ERROR);
 
     if !status.is_success() {
         let message = response
             .text()
             .await
-            .unwrap_or_else(|_| {
-                "Error procesando inicio de sesión".to_string()
-            });
+            .unwrap_or_else(|_| "Error procesando inicio de sesión".to_string());
 
         return (status, message).into_response();
     }
 
-    let micro_response = match response
-        .json::<MicroLoginResponse>()
-        .await
-    {
+    let micro_response = match response.json::<MicroLoginResponse>().await {
         Ok(response) => response,
 
         Err(error) => {
             return (
                 StatusCode::INTERNAL_SERVER_ERROR,
-                format!(
-                    "Respuesta inválida del microservicio: {error}"
-                ),
+                format!("Respuesta inválida del microservicio: {error}"),
             )
                 .into_response();
         }
@@ -113,11 +82,7 @@ pub async fn login(
         Ok(token) => token,
 
         Err(error) => {
-            return (
-                StatusCode::INTERNAL_SERVER_ERROR,
-                error,
-            )
-                .into_response();
+            return (StatusCode::INTERNAL_SERVER_ERROR, error).into_response();
         }
     };
 
@@ -132,12 +97,7 @@ pub async fn login(
     .into_response()
 }
 
-proxy_route!(
-    POST,
-    register,
-    Microservice::Messenger,
-    "/auth/register"
-);
+proxy_route!(POST, register, Microservice::Messenger, "/auth/register");
 
 pub fn auth_routes() -> Router<AppState> {
     Router::new()

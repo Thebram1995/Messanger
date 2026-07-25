@@ -1,26 +1,17 @@
 use utoipa::{
-    openapi::security::{
-        HttpAuthScheme,
-        HttpBuilder,
-        SecurityScheme,
-    },
-    Modify,
-    OpenApi,
+    Modify, OpenApi,
+    openapi::security::{HttpAuthScheme, HttpBuilder, SecurityScheme},
 };
 
 use crate::models::{
-    create_role_request::CreateRoleRequest,
-    login_request::LoginRequest,
+    create_role_request::CreateRoleRequest, login_request::LoginRequest,
     login_response::LoginResponse,
 };
 
 pub struct SecurityAddon;
 
 impl Modify for SecurityAddon {
-    fn modify(
-        &self,
-        openapi: &mut utoipa::openapi::OpenApi,
-    ) {
+    fn modify(&self, openapi: &mut utoipa::openapi::OpenApi) {
         if let Some(components) = openapi.components.as_mut() {
             components.add_security_scheme(
                 "bearer_auth",

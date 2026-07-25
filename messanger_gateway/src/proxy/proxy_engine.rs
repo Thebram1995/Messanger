@@ -1,9 +1,8 @@
 use axum::{
-    http::{HeaderMap, Method, StatusCode},
-    response::{IntoResponse, Response},
     Json,
+    http::{Method, StatusCode},
+    response::{IntoResponse, Response},
 };
-use reqwest::Client;
 use serde_json::Value;
 
 use crate::{
@@ -17,7 +16,6 @@ impl ProxyEngine {
     pub async fn forward(
         state: &AppState,
         method: Method,
-        headers: HeaderMap,
         microservice: Microservice,
         target_path: &str,
         body: Option<Value>,
@@ -25,13 +23,6 @@ impl ProxyEngine {
         let url = ServiceRegistry::resolve(state, microservice, target_path);
 
         let mut request = state.client.request(method, url);
-
-        // Authorization
-        if let Some(auth) = headers.get("Authorization") {
-            if let Ok(value) = auth.to_str() {
-                request = request.header("Authorization", value);
-            }
-        }
 
         // Body
         if let Some(json) = body {
@@ -44,19 +35,15 @@ impl ProxyEngine {
                     .unwrap_or(StatusCode::INTERNAL_SERVER_ERROR);
 
                 match resp.text().await {
-                    Ok(body) => {
-                        match serde_json::from_str::<Value>(&body) {
-                            Ok(json) => (status, Json(json)).into_response(),
+                    Ok(body) => match serde_json::from_str::<Value>(&body) {
+                        Ok(json) => (status, Json(json)).into_response(),
 
-                            Err(_) => (status, body).into_response(),
-                        }
-                    }
+                        Err(_) => (status, body).into_response(),
+                    },
 
                     Err(error) => (
                         StatusCode::INTERNAL_SERVER_ERROR,
-                        format!(
-                            "Error leyendo respuesta del microservicio: {error}"
-                        ),
+                        format!("Error leyendo respuesta del microservicio: {error}"),
                     )
                         .into_response(),
                 }

@@ -9,5 +9,6 @@ pub struct JwtClaims {
     pub username: String,
     pub role: String,
     pub permissions: Vec<String>,
+    pub iat: usize,
     pub exp: usize,
 }
